@@ -45,7 +45,7 @@ React.useEffect(()=>{
        }))
     }
     return(
-      tenzies ? <main><h1 className="won">You have won, Please delete the game right now !!!</h1></main> : (<main>
+      tenzies ? <main><h1 className="won"You have won the game congratulations 🎉🎉</h1></main> : (<main>
             <h1 className="title">Tenzies</h1>
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="die-container"> 
